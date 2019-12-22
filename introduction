@@ -23,3 +23,28 @@
   Locating and fixing bugs is a real pain
   Nokia adopted CI (continuous integration)
  
+
+* Jenkins's architecture
+  Master -> Slave(s)
+  
+  Why distributed architecture for Jenkins?
+   sometimes, several different environments needed
+   if a larger project gets built, a single server cannot handle entire load
+  
+  Jenkins master:
+   Scheduling jobs
+   Communicating with the slaves
+   Monitor the slaves
+   Present the results
+   Master can also execute build jobs
+   TCP/IP
+  Jenkins Slave
+   Comunication with Jenkins master
+   Can run in different OS
+   Execute jobs
+   Flexibility
+   
+   
+  GitHub:
+   Github repository -> [Jenkins master -> Jenkins slave]
+   
