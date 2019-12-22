@@ -1,0 +1,5 @@
+open source automation server
+to build an test software projects continously
+using jenkens, can accelerate software development
+achieves CI with help of plugins
+setup jenkins to watch for any code change
