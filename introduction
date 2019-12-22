@@ -1,5 +1,25 @@
-open source automation server
-to build an test software projects continously
-using jenkens, can accelerate software development
-achieves CI with help of plugins
-setup jenkins to watch for any code change
+* open source automation server
+  to build an test software projects continously
+  using jenkens, can accelerate software development
+  achieves CI with help of plugins
+  setup jenkins to watch for any code change
+
+
+
+* benefits
+  open source tool
+  easy to install
+  has 1000+ plugins
+  free of cos
+  build with java
+ 
+* Continuous Integration
+  Jenkins is a CI tool, so what is CI
+  Allows the teams to detect problems early
+ 
+* Jenkins case study - nokia
+  at nokia, in a software development project, there was a process called nightly builds
+  every night, an automated system pulls the code to shared repository
+  locating and fixing bugs is a real pain
+  Nokia adopted CI (continuous integration)
+ 
